@@ -13,7 +13,7 @@ pacmd load-module module-jack-sink client_name=$bridge1 channels=2
 
 # FIREFOX BRIDGE PULSEAUDIO - JACK
 pacmd load-module module-jack-source client_name=$bridge2 channels=2
-pacmd load-module module-jack-sink client_name=$bridge3 channels=2
+pacmd load-module module-jack-sink client_name=$bridge2 channels=2
 
 # SDR BRIDGE PULSEAUDIO - JACK
 pacmd load-module module-jack-source client_name=$bridge3 channels=2
